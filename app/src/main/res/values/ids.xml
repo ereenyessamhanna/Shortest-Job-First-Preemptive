@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Process LinearLayout
+    <item name="process1LL" type="id"></item>
+    <item name="process2LL" type="id"></item>
+    <item name="process3LL" type="id"></item>
+    <item name="process4LL" type="id"></item>
+    <item name="process5LL" type="id"></item>
+    <item name="process6LL" type="id"></item>
+    <item name="process7LL" type="id"></item>
+    <item name="process8LL" type="id"></item>
+    <item name="process9LL" type="id"></item>
+    <item name="process10LL" type="id"></item>
+
+
+    // Process Name
+    <item name="processName1" type="id"></item>
+    <item name="processName2" type="id"></item>
+    <item name="processName3" type="id"></item>
+    <item name="processName4" type="id"></item>
+    <item name="processName5" type="id"></item>
+    <item name="processName6" type="id"></item>
+    <item name="processName7" type="id"></item>
+    <item name="processName8" type="id"></item>
+    <item name="processName9" type="id"></item>
+    <item name="processName10" type="id"></item>
+
+
+
+    // Process Arrival Time
+   <item name="processArrivalTime1" type="id"></item>
+   <item name="processArrivalTime2" type="id"></item>
+   <item name="processArrivalTime3" type="id"></item>
+   <item name="processArrivalTime4" type="id"></item>
+   <item name="processArrivalTime5" type="id"></item>
+   <item name="processArrivalTime6" type="id"></item>
+   <item name="processArrivalTime7" type="id"></item>
+   <item name="processArrivalTime8" type="id"></item>
+   <item name="processArrivalTime9" type="id"></item>
+   <item name="processArrivalTime10" type="id"></item>
+
+
+
+    // Process Burst Time
+   <item name="processBurstTime1" type="id"></item>
+   <item name="processBurstTime2" type="id"></item>
+   <item name="processBurstTime3" type="id"></item>
+   <item name="processBurstTime4" type="id"></item>
+   <item name="processBurstTime5" type="id"></item>
+   <item name="processBurstTime6" type="id"></item>
+   <item name="processBurstTime7" type="id"></item>
+   <item name="processBurstTime8" type="id"></item>
+   <item name="processBurstTime9" type="id"></item>
+   <item name="processBurstTime10" type="id"></item>
+
+
+
+
+
+
+
+</resources>

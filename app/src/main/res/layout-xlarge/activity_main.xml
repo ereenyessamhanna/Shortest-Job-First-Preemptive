@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.egypt.ereeny_shortest_job_first_preemptive.MainActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:weightSum="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:theme="@style/Theme.AppCompat"
+            android:layout_weight="2.5"
+            android:id="@+id/numberOfProcessInputLayout"
+            android:layout_width="match_parent"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+            android:textColorHint="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:id="@+id/numberOfProcessField"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:hint="Number of Processes"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next "
+            android:id="@+id/nextBtn"
+            android:textAlignment="center"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/submitBtn"
+        android:id="@+id/numberOfProcessLinearLayout">
+
+
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P1"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="500000"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/editText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="500000"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"/>
+
+
+        </LinearLayout>-->
+
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:visibility="invisible"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Submit "
+        android:id="@+id/submitBtn"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>
